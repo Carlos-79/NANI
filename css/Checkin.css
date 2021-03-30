@@ -1,0 +1,72 @@
+body {
+    background-image: url("https://storage.googleapis.com/twg-content/images/youtube-marketing-to-gamers_articles_lg.width-1200.jpg");
+}
+.auth_inner {
+    background: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+.full {
+    float: left;
+    width: 100%;
+    clear: both;
+}
+*, :before, :after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+button, input, textarea, select, label, a {
+transition: all .2s linear;
+}
+a, a:active, :focus {
+    outline: 0;
+}
+p {
+text-align: center;
+color: #FFF;
+}
+.de-auth .auth-page-footer a {
+    color: white;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn-primary {
+    color: #ffffff;
+    background-color: #840000;
+    border-color: #2e6da4;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.de-auth label {
+    color: #000000;
+}
