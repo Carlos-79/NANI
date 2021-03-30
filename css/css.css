@@ -1,0 +1,1239 @@
+
+[hidden],template {
+    display: none!important
+}
+    body {
+    background-image: url("https://image.freepik.com/vector-gratis/fondo-transparente-videojuegos_6997-1230.jpg");
+}
+body ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px
+}
+
+@media print {
+    *,*:before,*:after {
+        color: #000!important;
+        text-shadow: none!important;
+        background: 0 0!important;
+        -webkit-box-shadow: none!important;
+        box-shadow: none!important
+    }
+
+    h2,h3 {
+        page-break-after: avoid
+    }
+
+    select {
+        background: #fff!important
+    }
+}
+
+
+a[class*=fa-],span[class*=fa-],strong[class*=fa-],i[class*=fa-] {
+    display: inline-block
+}
+
+
+*,:before,:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+
+
+
+ul,ol,dl,dl dt,dl dd,h1,h2,h3,h4,h5,h6,p,hr,blockquote,table,input,textarea,button,select,.Select {
+    margin-bottom: 15px
+}
+
+button,input,textarea,. {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: inherit;
+    font: inherit;
+    width: 100%;
+    vertical-align: middle
+}
+
+
+input,textarea,select,.Select label,.Checkbox input+i:before,.Radio input+i {
+    border: 1px solid transparent
+}
+
+
+input,select {
+    height: 40px;
+    line-height: normal
+}
+
+label.Form-Icon.Right {
+padding-left: 10px;
+}
+
+.Form-Icon.Right input,.Form-Icon.Right textarea {
+    padding-left: 15px;
+    padding-right: 40px  
+}
+
+button,input[type=button],input[type=reset],input[type=submit] {
+    border: 0;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 700
+}
+
+.Form-Icon.Right input+i, .Form-Icon.Right textarea+i {
+    left: auto;
+    right: 0;
+}
+
+.Form-Icon input+i, .Form-Icon textarea+i, .Form-Icon input+i:before, .Form-Icon textarea+i:before {
+    width: 40px;
+    line-height: 40px;
+}
+.Form-Icon input+i, .Form-Icon textarea+i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    opacity: .2;
+    color: inherit;
+    transition: opacity .2s;
+}
+.Form-Icon.Right input+i, .Form-Icon.Right textarea+i {
+    left: auto;
+    right: 0;
+}
+.Form-Icon input+i, .Form-Icon textarea+i, .Form-Icon input+i:before, .Form-Icon textarea+i:before {
+    width: 40px;
+    line-height: 40px;
+}
+
+.Form-Icon input+i, .Form-Icon textarea+i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    opacity: .2;
+    color: inherit;
+    transition: opacity .2s;
+}
+
+
+.Form-Warning input,.Form-Warning textarea,.Form-Warning select,.Form-Warning label {
+    border-color: #f09941!important;
+    color: #f09941
+}
+
+.Form-Error input,.Form-Error textarea,.Form-Error select,.Form-Error label {
+    border-color: #f24343!important;
+    color: #f24343
+}
+
+input:disabled,textarea:disabled,select:disabled,.Select select:disabled+label,.Checkbox [type=checkbox]:disabled+i:before,.Radio [type=radio]:disabled+i {
+    background-color: #fafafa!important;
+    border-color: #ddd!important;
+    color: #999!important
+}
+
+.Radio [type=radio]:disabled+i:before {
+    background-color: #999!important
+}
+
+::-webkit-input-placeholder {
+    color: inherit
+}
+
+::-moz-placeholder {
+    color: inherit
+}
+
+:-ms-input-placeholder {
+    color: inherit
+}
+
+input:-moz-placeholder {
+    color: inherit
+}
+
+.ClFx:before,.ClFx:after {
+    content: "";
+    display: table
+}
+
+.ClFx:after {
+    clear: both
+}
+
+button,input,textarea,select,label,a {
+    transition: all .2s linear
+}
+
+@media all and (max-width: 767px) {
+    .AXHd {
+        display:none!important
+    }
+}
+
+@media all and (min-width: 767px) and (max-width:1020px) {
+    .BXHd {
+        display:none!important
+    }
+}
+
+@media all and (min-width: 767px) {
+    .BXHdm {
+        display:none!important
+    }
+}
+
+@media all and (min-width: 1020px) and (max-width:1200px) {
+    .CXHd {
+        display:none!important
+    }
+}
+
+@media all and (min-width: 1020px) {
+    .CXHdm {
+        display:none!important
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .DXHd {
+        display:none!important
+    }
+}
+
+.mCustomScrollbar {
+    -ms-touch-action: pinch-zoom;
+    touch-action: pinch-zoom
+}
+
+.mCustomScrollbar.mCS_no_scrollbar,.mCustomScrollbar.mCS_touch_action {
+    -ms-touch-action: auto;
+    touch-action: auto
+}
+
+.mCustomScrollBox {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    max-width: 100%;
+    outline: 0;
+    direction: ltr
+}
+
+.mCSB_container {
+    overflow: hidden;
+    width: auto;
+    height: auto
+}
+
+.mCSB_inside>.mCSB_container {
+    margin-right: 30px
+}
+
+.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
+    margin-right: 0
+}
+
+.mCS-dir-rtl>.mCSB_inside>.mCSB_container {
+    margin-right: 0;
+    margin-left: 30px
+}
+
+.mCS-dir-rtl>.mCSB_inside>.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
+    margin-left: 0
+}
+
+.mCSB_scrollTools {
+    position: absolute;
+    width: 5px;
+    height: auto;
+    left: auto;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.mCSB_outside+.mCSB_scrollTools {
+    right: -26px
+}
+
+.mCS-dir-rtl>.mCSB_inside>.mCSB_scrollTools,.mCS-dir-rtl>.mCSB_outside+.mCSB_scrollTools {
+    right: auto;
+    left: 0
+}
+
+.mCS-dir-rtl>.mCSB_outside+.mCSB_scrollTools {
+    left: -26px
+}
+
+.mCSB_scrollTools .mCSB_draggerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: auto
+}
+
+.mCSB_scrollTools a+.mCSB_draggerContainer {
+    margin: 20px 0
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    width: 5px;
+    height: 100%;
+    margin: 0 auto;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px
+}
+
+.mCSB_scrollTools .mCSB_dragger {
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    z-index: 1
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    position: relative;
+    width: 5px;
+    height: 100%;
+    margin: 0 auto;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    text-align: center
+}
+
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar {
+    width: 5px
+}
+
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail {
+    width: 5px
+}
+
+.mCSB_scrollTools .mCSB_buttonUp,.mCSB_scrollTools .mCSB_buttonDown {
+    display: block;
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer
+}
+
+.mCSB_scrollTools .mCSB_buttonDown {
+    bottom: 0
+}
+
+.mCSB_horizontal.mCSB_inside>.mCSB_container {
+    margin-right: 0;
+    margin-bottom: 30px
+}
+
+.mCSB_horizontal.mCSB_outside>.mCSB_container {
+    min-height: 100%
+}
+
+.mCSB_horizontal>.mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden {
+    margin-bottom: 0
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    width: auto;
+    height: 8px;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.mCustomScrollBox+.mCSB_scrollTools.mCSB_scrollTools_horizontal,.mCustomScrollBox+.mCSB_scrollTools+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    bottom: -26px
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal a+.mCSB_draggerContainer {
+    margin: 0 20px
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    width: 100%;
+    height: 8px
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger {
+    width: 30px;
+    height: 100%;
+    left: 0
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    width: 100%;
+    height: 8px
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonLeft,.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonLeft {
+    left: 0
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight {
+    right: 0
+}
+
+.mCSB_container_wrapper {
+    position: absolute;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-right: 30px;
+    margin-bottom: 30px
+}
+
+.mCSB_container_wrapper>.mCSB_container {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_vertical {
+    bottom: 20px
+}
+
+.mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    right: 20px
+}
+
+.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden+.mCSB_scrollTools.mCSB_scrollTools_vertical {
+    bottom: 0
+}
+
+.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools~.mCSB_scrollTools.mCSB_scrollTools_horizontal,.mCS-dir-rtl>.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    right: 0
+}
+
+.mCS-dir-rtl>.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    left: 20px
+}
+
+.mCS-dir-rtl>.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools~.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    left: 0
+}
+
+.mCS-dir-rtl>.mCSB_inside>.mCSB_container_wrapper {
+    margin-right: 0;
+    margin-left: 30px
+}
+
+.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden>.mCSB_container {
+    padding-right: 0
+}
+
+.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden>.mCSB_container {
+    padding-bottom: 0
+}
+
+.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden {
+    margin-right: 0;
+    margin-left: 0
+}
+
+.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden {
+    margin-bottom: 0
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: rgba(0,0,0,.1)
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #840000
+}
+
+.rect-auto,.percircle.gt50 .slice {
+    clip: rect(auto,auto,auto,auto)
+}
+
+.pie,.percircle .bar,.gt50 .fill {
+    position: absolute;
+    border: 5px solid #840000;
+    width: 50px;
+    height: 50px;
+    clip: rect(0,25px,50px,0);
+    border-radius: 50%;
+    transform: rotate(0deg)
+}
+
+.bar {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+.pie-fill,.gt50 .bar:after,.gt50 .fill {
+    transform: rotate(180deg)
+}
+
+.percircle {
+    position: relative;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 5px rgba(1,188,243,.5)
+}
+
+.percircle.animate>span,.percircle.animate:after {
+    transition: transform .2s ease-in-out
+}
+
+.percircle.animate .bar {
+    transition: transform .6s ease-in-out
+}
+
+.percircle>span {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    height: 50px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 700
+}
+
+.percircle>span:after {
+    content: '%';
+    font-size: 12px
+}
+
+.perclock>span {
+    font-size: 50px
+}
+
+.percircle:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: " ";
+    border-radius: 50%;
+    width: 50px;
+    height: 50px
+}
+
+.percircle .slice {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    clip: rect(0,50px,50px,25px)
+}
+
+.percircle:hover {
+    cursor: default
+}
+
+.bx-wrapper {
+    position: relative;
+    *zoom:1;-ms-touch-action: pan-y;
+    touch-action: pan-y
+}
+
+.bx-viewport {
+    -webkit-transform: translatez(0)
+}
+
+body {
+    background: url(../img/bg.jpg) #fff
+}
+
+body {
+    color: #9da1a4
+}
+
+a,.Title {
+    color: #3b4248
+}
+
+a:hover,.tagcloud a:before {
+    color: #840000
+}
+
+input,textarea,select,.Select label,.Checkbox [type=checkbox]+i:before,.Radio [type=radio]+i {
+    border-color: #e8e7f0
+}
+
+input:focus,textarea:focus,select:focus,.Select select:focus+label,.Checkbox [type=checkbox]:checked+i:before,.Radio [type=radio]:checked+i {
+    border-color: #840000
+}
+
+.Checkbox [type=checkbox]:checked+i {
+    color: #840000
+}
+
+.Radio [type=radio]:checked+i:before {
+    background-color: #840000
+}
+
+.Button,a.Button,button,input[type=button],input[type=reset],input[type=submit] {
+    background-color: #3b4248
+}
+
+.Button:hover,a.Button:hover,button:hover,input[type=button]:hover,input[type=reset]:hover,input[type=submit]:hover {
+    background-color: #840000
+}
+
+.Button,a.Button,button,input[type=button],input[type=reset],input[type=submit] {
+    color: #fff
+}
+
+body ::-webkit-scrollbar {
+    background-color: #ccc
+}
+
+body ::-webkit-scrollbar-thumb {
+    background-color: #840000
+}
+
+.Header {
+    background-color: #3b4248;
+    position: relative;
+    z-index: 3
+}
+
+.Header>.Top {
+    background-color: #840000;
+    transition: all .2s;
+    max-height: 99em;
+    padding-bottom: 3px
+}
+
+.Header>.Top .Container {
+    padding-top: 10px;
+    padding-bottom: 7px;
+    position: relative
+}
+
+.Header>.Top .Hd-Top {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 0 0 5px 5px
+}
+
+.Header>.Top .Hd-Top:before {
+    color: #fb3447;
+    font-size: 15px;
+    margin-right: 5px
+}
+
+.Header>.Top .Dvr728 {
+    max-width: 728px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#Hd-Top:checked~.Top {
+    max-height: 0;
+    overflow: hidden
+}
+
+#Hd-Top:checked~.Top .Hd-Top {
+    opacity: 0
+}
+
+.Header>.Mid {
+    background-color: rgba(0,0,0,.2)
+}
+
+.Header>.Mid .Logo {
+    margin-bottom: 0;
+    padding: 15px 0
+}
+
+.Header>.Mid .Menu>li>a {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 50px;
+    padding: 0 15px;
+    opacity: .5
+}
+
+.Header>.Mid .Menu>li.kudasai>a {
+    color: #cc42ff;
+    opacity: inherit
+}
+
+.Header>.Mid .Menu>li.youtube>a {
+    color: #ee429b;
+    opacity: inherit
+}
+
+.Header>.Mid .Menu>li.sorteo>a {
+    color: #a4e120;
+    opacity: inherit
+}
+
+.Header>.Mid .Menu>li.Current>a,.Header>.Mid .Menu>li>a:hover {
+    opacity: 1
+}
+
+
+
+
+.Header>.Mid .Login .fb_login {
+    background: #45619d!important;
+    color: #fff!important;
+    margin-bottom: 10px!important;
+    text-align: center!important
+}
+
+.Header>.Mid .Login {
+    padding: 5px 15px;
+    position: relative;
+    z-index: 99999999999
+}
+
+.Header>.Mid .Login #DpdwLnk-Login:checked+label,.Header>.Mid .Login #DpdwLnk-Login:checked+label span:before {
+    color: #fff
+}
+
+.Header>.Mid .Login #DpdwLnk-Login:checked+label {
+    background-color: #840000
+}
+
+.Header>.Mid .Login .DpdwCnt,.Header>.Mid .Search .DpdwCnt {
+    left: auto;
+    right: 5px
+}
+
+.Header>.Mid .Login .DpdwCnt:before,.Header>.Mid .Search .DpdwCnt:before {
+    left: auto;
+    right: 15px
+}
+
+.Header>.Mid .Login .Button {
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.2);
+    width: 100%;
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 12px
+}
+
+.Header>.Mid .Login .Button:hover {
+    background-color: rgba(0,0,0,.4)
+}
+
+.Header>.Mid .Login .Button span:before {
+    color: #840000;
+    font-size: 15px
+}
+
+.Header>.Mid .Login form {
+    padding: 15px;
+    font-size: 12px
+}
+
+.Header>.Mid .Login form [class*=Form-] {
+    margin-bottom: 10px
+}
+
+.Header>.Mid .Login form input {
+    border-radius: 5px
+}
+
+.Header>.Mid .Login form button {
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: #840000
+}
+
+.Header>.Mid .Login form button:hover {
+    opacity: .8
+}
+
+.Header>.Mid .Login form .Links {
+    overflow: hidden
+}
+
+.Header>.Mid .Login form .Links a:first-child {
+    color: #840000
+
+}
+
+.Header>.Mid .Login form .Links a+a {
+    float: right
+}
+
+.Header>.Mid .ListSocial {
+    font-size: 0;
+    text-align: center;
+    padding: 5px 15px
+}
+
+.Header>.Mid .ListSocial>li {
+    display: inline-block;
+    vertical-align: top
+}
+
+.Header>.Mid .ListSocial a {
+    background: #0082bc;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZC11Y2dnLWdlbmVyYXRlZCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMDgyYmMiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlNWI5YyIgc3RvcC1vcGFjaXR5PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cGF0aCBkPSJNMCAwaDF2MUgweiIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz48L3N2Zz4=);
+    background: -moz-linear-gradient(top,rgba(0,130,188,1) 0%,rgba(30,91,156,1) 100%);
+    background: -webkit-linear-gradient(top,rgba(0,130,188,1) 0%,rgba(30,91,156,1) 100%);
+    background: -ms-linear-gradient(top,rgba(0,130,188,1) 0%,rgba(30,91,156,1) 100%);
+    background: linear-gradient(to bottom,rgba(0,130,188,1) 0%,rgba(30,91,156,1) 100%);
+    color: #fff;
+    position: relative;
+    font-size: 20px
+}
+
+.Header>.Mid .ListSocial a:after {
+    border-radius: 20px 20px 0 0;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 20px;
+    background-color: #fff;
+    opacity: .1
+}
+
+.Header>.Mid .ListSocial a:hover {
+    opacity: .8
+}
+
+.Header>.Bot {
+    padding: 20px 0
+}
+
+.SldrHmCn .bx-viewport {
+    overflow: inherit!important
+}
+
+.Slide {
+    position: relative;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 200px rgba(0,0,0,.2);
+    display: none
+}
+
+.Slide[style] {
+    display: block
+}
+
+.Slide:before {
+    background-color: rgba(0,0,0,.2);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    content: '';
+    z-index: 2;
+    border-radius: 0 0 5px 5px
+}
+
+.Slide>div {
+    position: relative;
+    z-index: 2
+}
+
+.Slide>.Bg,.Slide>.Bg span {
+    position: absolute;
+    border-radius: 5px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden
+}
+
+.Slide>.Bg {
+    z-index: 1;
+    opacity: .15
+}
+
+.Slide>.Bg span,.Wdgt.User .Avatar>.Bg {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    -o-filter: blur(10px);
+    filter: url(data:image/svg+xml;utf8;base64,PHN2ZyBoZWlnaHQ9IjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGZpbHRlciBpZD0ic3ZnQmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTAiLz48L2ZpbHRlcj48L3N2Zz4jc3ZnQmx1cg==);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+    filter: blur(10px)
+}
+
+.Slide .Image {
+    padding: 15px;
+    max-width: 210px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.Slide .Image figure {
+    position: relative;
+    padding-top: 143.33333333333334%;
+    overflow: hidden;
+    display: block
+}
+
+.Slide .Image img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px
+}
+
+.Slide .Top {
+    padding-top: 15px;
+    margin: 0 15px;
+    border-bottom: 1px solid rgba(0,0,0,.1)
+}
+
+.Slide .Top .Title {
+    margin-bottom: 0;
+    line-height: 29px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(255,255,255,.05);
+    padding-bottom: 9px;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.Slide .Bod {
+    height: 115px;
+    font-size: 12px;
+    padding: 15px
+}
+
+.Slide .Bot {
+    background-color: rgba(0,0,0,.1)
+}
+
+.DwBd .SldrHmCn .bx-viewport {
+    z-index: 3
+}
+
+.SldrHmCn .bx-viewport {
+    z-index: 1
+}
+
+.SldrHmCn .bx-controls {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    line-height: 0;
+    height: 10px;
+    z-index: 2
+}
+
+.SldrHmCn .bx-pager>div,.SldrHmCn .bx-pager>div>a {
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top
+}
+
+.SldrHmCn .bx-pager>div {
+    padding-left: 5px
+}
+
+.SldrHmCn .bx-pager>div>a {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,.2)
+}
+
+.SldrHmCn .bx-pager>div>a.active {
+    background-color: #00bbf2
+}
+
+.ListPostOpts {
+    padding: 5px 10px
+}
+
+.ListPostOpts>li {
+    position: relative;
+    padding: 5px
+}
+
+a.BtnOpt,.BtnOpt {
+    color: #fff;
+    padding: 5px 5px 5px 35px;
+    position: relative;
+    height: 30px
+}
+
+.BtnOpt:before {
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #fff;
+    transition: all .2s;
+    padding-left: 1px
+}
+
+.BtnOpt>span {
+    font-size: 12px;
+    font-weight: 700
+}
+
+.BtnOpt.Play:hover:before {
+    background-color: rgba(0,187,242,.2);
+    color: #00bbf2
+}
+
+.BtnOpt.Play:before {
+    color: #00bbf2;
+    border-color: #00bbf2;
+    line-height: 28px;
+    padding-left: 2px;
+    font-size: 14px
+}
+
+.BtnOpt.Favo:hover:before {
+    background-color: rgba(255,47,72,.2);
+    color: #ff2f48
+}
+
+.BtnOpt.Favo:before {
+    color: #ff2f48;
+    border-color: #ff2f48;
+    padding-left: 0
+}
+
+.BtnOpt.Comt:hover:before {
+    background-color: rgba(0,175,67,.2);
+    color: #00af43
+}
+
+.BtnOpt.Comt:before {
+    color: #00af43;
+    border-color: #00af43
+}
+
+.BtnOpt.Comt span span.subspan {
+    font-weight: 400;
+    opacity: .5
+}
+
+.BtnOpt.Comp:hover:before {
+    background-color: rgba(255,255,255,.2);
+    color: #fff
+}
+
+.BtnOpt.Comp:before {
+    border-color: rgba(255,255,255,.5);
+    padding-left: 0;
+    padding-right: 2px
+}
+
+.DpdwCnt>.Close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    border-radius: 15px;
+    background-color: #ff2f48;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    padding: 0
+}
+
+.DpdwCnt>.Close:hover {
+    opacity: .9
+}
+
+.Share {
+    position: relative
+}
+
+.Share .DpdwCnt.TtCn {
+    top: 45px
+}
+
+.DpdwCnt.TtCn {
+    background-color: #fff;
+    left: -2%;
+    top: 100%;
+    width: 326px;
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    position: absolute;
+    top: 100%;
+    border-radius: 5px;
+    overflow: inherit
+}
+.kesu {
+ width: 326px;
+}
+
+@media (min-width: 1000px) {
+ .DpdwCnt.TtCn {
+    left: 540px;
+    width: 690px;
+}
+}
+@media (min-width: 1000px) {
+ .kesu {
+ width: auto;
+}
+}
+
+.DpdwCnt.TtCn:before {
+    content: '';
+    position: absolute;
+    left: 350px;
+    top: -5px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #fff
+}
+
+.DpdwCnt.TtCn>.Title {
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #f3f3f3
+}
+
+.ListShare,.ListShare>li {
+    padding: 5px;
+    font-size: 0;
+    text-align: center
+}
+
+.ListShare>li {
+    display: inline-block;
+    vertical-align: top
+}
+
+.ListShare a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px
+}
+
+.ListShare a:hover {
+    opacity: .8
+}
+
+.ListShare a.fa-facebook {
+    background-color: #3b63a1
+}
+
+.ListShare a.fa-twitter {
+    background-color: #00aeed
+}
+
+.ListShare a.fa-google-plus {
+    background-color: #ff4b3a
+}
+
+
+.Sidebar>*,.Wdgt {
+    margin-bottom: 20px
+}
+
+.Sidebar>*:last-child,.Wdgt:last-child,.Main>*:last-child,.Desc>*:last-child,.Desc p:last-of-type {
+    margin-bottom: 0
+}
+
+.DpdwCnt {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all .2s;
+    visibility: hidden
+}
+
+[id^=DpdwLnk-]:checked~.DpdwCnt,.On>.DpdwCnt {
+    max-height: 999em;
+    opacity: 1;
+    visibility: visible
+}
+div.Links a {
+    padding-right: 18px;
+}
+@media (min-width: 1000px) {
+div.Links a {
+    padding-right: 30%;
+}
+}
+.Header>.Mid .Login form button {
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: #840000;
+}
+----------
